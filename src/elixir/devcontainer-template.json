@@ -1,0 +1,22 @@
+{
+    "id": "devcontainer-elixir",
+    "version": "1.0.0",
+    "name": "Elixir Devcontainer",
+    "description": "A devcontainers to work with Elixir",
+    "documentationURL": "https://github.com/devcontainers/template-starter/tree/main/src/color",
+    "licenseURL": "https://github.com/devcontainers/template-starter/blob/main/LICENSE",
+    "options": {
+        "elixirVersion": {
+            "type": "string",
+            "description": "Choose base elixir image version",
+            "proposals": [
+                "1.15-otp-25",
+                "1.15-otp-24"
+            ],
+            "default": "1.15-otp-25"
+        }
+    },
+    "platforms": [
+        "Any"
+    ]
+}
